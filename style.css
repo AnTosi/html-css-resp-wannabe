@@ -90,7 +90,7 @@ img {
 
   h1 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     font-size: 2rem;
   }
   .row > div > h3 {
@@ -121,6 +121,11 @@ img {
 
   #lezioni, #why {
     background-color: #F2F2CD;
+  }
+
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 } 
 /* /viewport 420px  */
