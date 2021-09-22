@@ -147,6 +147,13 @@ img {
   hr {
     display: none;
   }
+
+  #why .row>.first img,
+  #why .row>.second img,
+  #why .row>.third img {
+    width: inherit;
+    height: inherit;
+  }
 }
 /* /viewport */
 
@@ -221,6 +228,8 @@ img {
     transform: scale(0.7);
     margin-top: -1rem;
     margin-bottom: -1rem;
+    width: 100px;
+    height: 100px;
   }
 
   hr {
