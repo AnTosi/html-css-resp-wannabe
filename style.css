@@ -72,6 +72,83 @@ img {
   clear: both;
 }
 
+/* viewport */
+@media screen and (max-width:768px) {
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  #lezioni .row .left, #lezioni .row .right {
+    width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+  }
+
+
+  h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .row > div > h3 {
+    margin: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  body {
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+
+  img {
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  body>div {
+    padding: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .row > div {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  #lezioni, #why {
+    background-color: #f2cdec;
+  }
+
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    box-sizing: border-box;
+    width: 33%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #steps .row div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+  }
+
+  hr {
+    display: none;
+  }
+}
+/* /viewport */
 
 /* viewport 420px  */
 @media screen and (max-width:420px) {
